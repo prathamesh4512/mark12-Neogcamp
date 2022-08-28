@@ -25,6 +25,8 @@ export function Area() {
       } else {
         setOutput("Please enter valid sides");
       }
+    } else {
+      setOutput("Please enter all three sides");
     }
   }
 
