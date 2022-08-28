@@ -10,7 +10,7 @@ export function Triangle() {
   function checkTriangle() {
     if (angle1 > 0 && angle2 > 0 && angle3 > 0) {
       +angle1 + +angle2 + +angle3 === 180
-        ? setOutput("Yay, the angles form a triangle!")
+        ? setOutput("Yaa, the angles form a triangle!")
         : setOutput("Oh Oh! The angle doesn't form a triangle");
     } else {
       setOutput("Please enter all three positives angles");
