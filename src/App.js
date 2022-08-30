@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Navbar, Triangle, Quiz, Area, Hypo } from "./components";
+import { Navbar, Triangle, Quiz, Area, Hypo, Footer } from "./components";
 import "./styles.css";
 
 export default function App() {
@@ -13,6 +13,7 @@ export default function App() {
           <Route path="/area" element={<Area />} />
           <Route path="/hypo" element={<Hypo />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
