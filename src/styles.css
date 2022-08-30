@@ -112,6 +112,7 @@ button {
 
 .footer {
   margin-top: 50px;
+  color: var(--primary-color);
 }
 
 .footer-header {
