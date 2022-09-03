@@ -2,6 +2,9 @@
 
 A ReactJs app to check your knowledge of triangles
 
+## Deployed link
+https://sggu4g.csb.app/hypo
+
 ## Features
 
 1. Is Triangle
