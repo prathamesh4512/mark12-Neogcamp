@@ -32,7 +32,7 @@ export function Hypo() {
       />
       <button onClick={calculateHypo}>Calculate Hypotenuse</button>
       <p>
-        Hypotenuse=(a<sup>2</sup>+b<sup>2</sup>)
+        Hypotenuse=&#8730;(a<sup>2</sup>+b<sup>2</sup>)
       </p>
       <h3 id="output">{output}</h3>
     </div>
