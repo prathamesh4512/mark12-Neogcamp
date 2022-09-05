@@ -33,21 +33,21 @@ export function Area() {
   return (
     <div>
       <h1 className="heading">Calculate Area of Triangle</h1>
-      <label htmlFor="side1">Side 1</label>
+      <label htmlFor="side1">Side 1 (cm)</label>
       <input
         type="number"
         name="side1"
         value={side1}
         onChange={(e) => setSide1(e.target.value)}
       />
-      <label htmlFor="side2">Side 2</label>
+      <label htmlFor="side2">Side 2 (cm)</label>
       <input
         type="number"
         name="side2"
         value={side2}
         onChange={(e) => setSide2(e.target.value)}
       />
-      <label htmlFor="side3">Side 3</label>
+      <label htmlFor="side3">Side 3 (cm)</label>
       <input
         type="number"
         name="side3"

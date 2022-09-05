@@ -16,14 +16,14 @@ export function Hypo() {
   return (
     <div>
       <h1 className="heading">Calculate Hypotenuse of a triangle</h1>
-      <label htmlFor="base">Enter base value (a) =</label>
+      <label htmlFor="base">Enter base value (a)(cm) =</label>
       <input
         type="number"
         name="base"
         value={base}
         onChange={(e) => setBase(e.target.value)}
       />
-      <label htmlFor="height">Enter height value (b) =</label>
+      <label htmlFor="height">Enter height value (b)(cm) =</label>
       <input
         type="number"
         name="height"
